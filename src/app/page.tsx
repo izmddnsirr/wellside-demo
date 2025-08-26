@@ -2,7 +2,7 @@
 import * as React from "react"
 import Autoplay from "embla-carousel-autoplay"
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel"
-import { Menu, User, CalendarDays, ArrowRight, MapPin, Clock, Phone, Scissors, Home, Info, Mail } from "lucide-react";
+import { Menu, User, CalendarDays, ArrowRight, Phone, Scissors, Home, Info } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger, SheetClose, SheetHeader, SheetTitle } from "@/components/ui/sheet"
 import Image from "next/image";
 
@@ -189,7 +189,7 @@ export default function LandingPage() {
           </h1>
           <div className="mt-5">
             <h1 className="text-xl font-semibold">Wellside Barbershop</h1>
-            <p className="italic">"Where style meets comfort"</p>
+            <p className="italic">Where style meets comfort</p>
             <p className="text-gray-600 mt-2">Founded in 2025</p>
             <p className="mt-4 text-gray-700">
               Wellside Barbershop was created with one mission, to provide more than
@@ -203,9 +203,9 @@ export default function LandingPage() {
             <h2 className="font-semibold text-lg mb-4">What Our Clients Say</h2>
             <div className="border-l-4 border-gray-300 pl-4">
               <p className="italic text-gray-700">
-                "The best barbershop experience I've ever had. Friendly barbers,
+                The best barbershop experience Ive ever had. Friendly barbers,
                 stylish cuts, and a super comfortable vibe. Definitely my go-to place
-                from now on!"
+                from now on!
               </p>
               <p className="mt-2 font-medium text-gray-900">— Izamuddin, Regular Client</p>
             </div>
