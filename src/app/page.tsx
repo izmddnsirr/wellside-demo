@@ -105,7 +105,7 @@ export default function LandingPage() {
             <div>
               <Carousel plugins={[Autoplay({ delay: 2500, }),]}>
                 <CarouselContent className="sm:px-1">
-                  {["/images/wellside1.jpg", "/images/wellside1.jpg", "/images/wellside1.jpg", "/images/wellside1.JPG", "/images/wellside1.JPG",].map((src, i) => (
+                  {["/images/wellside1.jpg", "/images/wellside1.jpg", "/images/wellside1.jpg", "/images/wellside1.jpg", "/images/wellside1.jpg",].map((src, i) => (
                     <CarouselItem key={i}>
                       <Image className="rounded-2xl border border-gray-300" src={src} width={600} height={400} alt="Wellside Barbershop" />
                     </CarouselItem>
@@ -125,7 +125,7 @@ export default function LandingPage() {
               <div className="flex justify-between items-center">
                 <h1 className="font-bold lg:text-xl">Cuts</h1>
                 <div className="flex text-xs lg:text-sm border px-3 py-1 rounded-full items-center justify-center font-bold text-gray-700">
-                  RM20++
+                  RM25+
                 </div>
               </div>
               <p className="mt-2 text-sm text-gray-600 lg:text-base">
@@ -137,7 +137,7 @@ export default function LandingPage() {
               <div className="flex justify-between items-center">
                 <h1 className="font-bold lg:text-xl">Shave</h1>
                 <div className="flex text-xs lg:text-sm border px-3 py-1 rounded-full items-center justify-center font-bold text-gray-700">
-                  RM20++
+                  RM15+
                 </div>
               </div>
               <p className="mt-2 text-sm text-gray-600 lg:text-base">
@@ -149,7 +149,7 @@ export default function LandingPage() {
               <div className="flex justify-between items-center">
                 <h1 className="font-bold lg:text-xl">Perm</h1>
                 <div className="flex text-xs lg:text-sm border px-3 py-1 rounded-full items-center justify-center font-bold text-gray-700">
-                  RM20++
+                  Coming Soon
                 </div>
               </div>
               <p className="mt-2 text-sm text-gray-600 lg:text-base">
@@ -161,7 +161,7 @@ export default function LandingPage() {
               <div className="flex justify-between items-center">
                 <h1 className="font-bold lg:text-xl">Wash</h1>
                 <div className="flex text-xs lg:text-sm border px-3 py-1 rounded-full items-center justify-center font-bold text-gray-700">
-                  RM20++
+                  RM15+
                 </div>
               </div>
               <p className="mt-2 text-sm text-gray-600 lg:text-base">
@@ -186,7 +186,7 @@ export default function LandingPage() {
               </p>
             </div>
             <div className="sm:order-none">
-              <Image className="rounded-2xl border border-gray-300 shadow sm:mt-0 sm:justify-self-end w-full h-auto sm:h-80 sm:object-cover lg:object-cover lg:rounded-3xl" src="/images/wellside4.jpg" alt="Wellside Barbershop interior" width={600} height={400} />
+              <Image className="rounded-2xl border border-gray-300 shadow sm:mt-0 sm:justify-self-end w-full h-auto sm:h-80 sm:object-cover lg:object-cover lg:rounded-3xl" src="/images/wellside4.jpeg" alt="Wellside Barbershop interior" width={600} height={400} />
             </div>
           </div>
           <div className="mt-10 bg-white shadow rounded-2xl p-6 border border-gray-300 sm:max-w-3xl sm:mx-auto lg:max-w-4xl">
@@ -197,7 +197,7 @@ export default function LandingPage() {
                 stylish cuts, and a super comfortable vibe. Definitely my go-to place
                 from now on!
               </p>
-              <p className="mt-2 font-medium text-gray-900">— Izamuddin, Regular Client</p>
+              <p className="mt-2 font-medium text-gray-900">— Syahir, Regular Client</p>
             </div>
           </div>
         </section>
