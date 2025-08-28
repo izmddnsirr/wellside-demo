@@ -118,7 +118,7 @@ export default function LandingPage() {
 
         {/* Services */}
         <section id="services" className="py-8 px-4 scroll-mt-16 sm:p-20 md:p-15">
-          <h1 className="font-bold text-2xl md:text-3xl sm:text-4xl ">Our Services</h1>
+          <h1 className="font-bold text-2xl md:text-3xl sm:text-4xl md:text-center">Our Services</h1>
           <div className="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {/* Cuts */}
             <div className="border border-gray-300 bg-white rounded-2xl p-4 shadow">
@@ -173,7 +173,7 @@ export default function LandingPage() {
 
         {/* About */}
         <section id="about" className="py-8 px-4 bg-gray-50 scroll-mt-16 sm:p-20 md:p-15">
-          <h1 className="font-bold text-2xl md:text-3xl sm:text-4xl">About Us</h1>
+          <h1 className="font-bold text-2xl md:text-3xl sm:text-4xl md:text-center">About Us</h1>
           <div className="mt-5 sm:mt-8 grid gap-8 lg:gap-12 sm:grid-cols-2 lg:items-center">
             <div className="lg:pr-10">
               <h1 className="text-xl font-semibold sm:text-2xl lg:text-3xl">Wellside Barbershop</h1>
@@ -204,7 +204,7 @@ export default function LandingPage() {
 
         {/* Contact */}
         <section id="contact" className="py-8 px-4 bg-white scroll-mt-16 sm:p-20 md:p-15">
-          <h1 className="font-bold text-2xl mb-5 md:text-3xl sm:text-4xl">Contact</h1>
+          <h1 className="font-bold text-2xl mb-5 md:text-3xl sm:text-4xl md:text-center">Contact</h1>
           <div className="sm:grid sm:grid-cols-2 sm:gap-8 lg:gap-12 sm:items-start">
             <div className="text-gray-700 space-y-5">
               <div>
