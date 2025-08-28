@@ -193,7 +193,7 @@ export default function LandingPage() {
             <h2 className="font-semibold text-lg mb-4 sm:text-xl lg:text-2xl">What Our Clients Say</h2>
             <div className="border-l-4 border-gray-300 pl-4">
               <p className="italic text-gray-700 lg:text-lg">
-                The best barbershop experience I've ever had. Friendly barbers,
+                The best barbershop experience I&apos;ve ever had. Friendly barbers,
                 stylish cuts, and a super comfortable vibe. Definitely my go-to place
                 from now on!
               </p>
